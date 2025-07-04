@@ -84,3 +84,28 @@ body {
     color: #394150;
 }
 
+@media (max-width: 576px) {
+    .main{
+        max-width: 350px;
+    }
+
+    .header__title {
+        font-size: 30px;
+    }
+
+    .header__paragraph {
+        font-size: 14px;
+    }
+
+    .buttons {
+        max-width: 320px;
+    }
+
+    .button {
+        font-size: 13px;
+    }
+
+    .email__span{
+        font-size: 10px;
+    }
+}
