@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family: "Poppins", sans-serif;
+
+    --color-title: #000000;
+    --color-paragraph: #6C727F;
+
+    --background-color-body: #F9FAFB;
+    --background-color-container-buttons: #FFFFFF;
+    --background-color-suscribe: #284BCE;
+    --background-color-email: #E5E7EB;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color-body);
+}
+
+.main {
+    display: flex;
+    margin: 120px auto;
+    flex-direction: column;
+    text-align: center;
+    max-width: 580px;
+}
+
+.header__logo {
+    margin-bottom: 10px;
+}
+
+.header__title {
+    color: var(--color-title);
+    font-size: 38px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.header__paragraph {
+    color: var(--color-paragraph);
+}
+
+.buttons {
+    display: flex;
+    margin: 35px auto;
+    flex-direction: column;
+    gap: 18px;
+    width: 460px;
+    background-color: var(--background-color-container-buttons);
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+.button {
+    border: none;
+    background: none;
+    border-radius: 7px;
+    padding: 15px 0;
+    font-family: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.4px;
+}
+
+.button__email {
+    background-color: var(--background-color-body);
+    border: 1px solid var(--background-color-email);
+    color: #394150;
+}
+
+.button__suscribe {
+    background-color: var(--background-color-suscribe);
+    color: var(--background-color-body);
+}
+
+.email__span {
+    font-size: 11px;
+    color: #394150;
+}
+
